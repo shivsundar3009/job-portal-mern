@@ -1,8 +1,11 @@
 import React from 'react'
+import LandingPage from './components/LandingPage'
 
 function App() {
   return (
-    <div className='bg-slate-500'>Linkdin Template</div>
+    <>
+    <LandingPage />
+    </>
   )
 }
 
